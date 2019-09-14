@@ -3,8 +3,18 @@
 		width: 96%;
 	}
 
+	#centro-distribuicao {
+		width: 65%;
+		padding: 0.4em 0.1em;
+		margin: 0.1em auto;
+	}
+
 	#centro-distribuicao img {
-		width: 55%;
+		width: 90%;
+	}
+
+	#centro-distribuicao figcaption {
+		font-size: 0.5em;
 	}
 	
 	footer p {
@@ -18,20 +28,30 @@
 
 	p {
 		padding: 0 5%;
+		text-align: justify;
 	}
 
 	#familia-pelho {
 		width: 45%;
 		font-size: 65%;
-		margin: 0;
-		padding: 0.7em 0.1em 0.1em;
+		margin: 0 0.2em;
+		padding: 0.3em 0.1em 0.1em;
 	}
 
 	#familia-pelho img {
-		width: 90%;
+		width: 97%;
 	}
 
 	figcaption {
-		margin-top: 0.2em;
+		margin-top: 0.1em;
+	}
+
+	#logo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	h1 {
+		font-size: 150%; 
 	}
 }
