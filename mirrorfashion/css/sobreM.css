@@ -18,12 +18,14 @@
 	}
 	
 	footer p {
-		font-size: 9%;
+		font-size: 35%;
+		position: absolute;
+			top: 56%;
+			left: 31%;
 	}
 
 	footer img {
-		height: 30%;
-		width: 30%;
+		width: 20%;
 	}
 
 	p {
@@ -53,5 +55,55 @@
 
 	h1 {
 		font-size: 150%; 
+	}
+
+	.social {
+		position: absolute;
+			top: -29%;
+			right: -3%;
+	}
+}
+
+@media (max-width: 640px) {
+
+	footer p {
+		font-size: 80%;
+		position: absolute;
+			top: 10%;
+			left: 31%;
+	}
+	
+}
+
+@media (max-width: 384px) {
+
+
+}
+
+@media (max-width: 360px) {
+
+	.social a {
+    	height: 19px;
+		width: 19px;
+	}
+
+	.social {
+		position: absolute;
+    		top: -50%;
+	}
+
+	footer p {
+		font-size: 45%;
+		position: absolute;
+			top:10%;
+			left:25%;
+	}
+}
+
+@media (max-width: 320px) {
+
+	.social a {
+    	height: 18px;
+		width: 18px;
 	}
 }

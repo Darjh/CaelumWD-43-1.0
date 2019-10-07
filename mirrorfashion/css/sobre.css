@@ -49,17 +49,18 @@ figcaption {
 footer {
     background-image: url(../img/fundo-rodape.png);
     clear: both;
-    padding: 0.5em 0;
+    padding-top: 0.5em;
 }
 
 .social a {
     /*Tamanho da imagem*/
-    height: 2em;
-    width: 2em;
+    height: 32px;
+    width: 32px;
 
     /*Imagem replacement*/
     display: block;
     text-indent: -9999px;
+    background-size: 100%;
 }
 
 .social a[href*="facebook.com"] {
@@ -79,16 +80,14 @@ footer .container {
 }
 
 footer img {
-    margin: 0.3em 0 0 0.3em;
+    margin-left: 1%;
 }
 
 .social {
     position: absolute;
-    top: 0.6em;
-    right: 0.2em;
+    top: 1%;
+    right: 1%;
     list-style-type: none;
-    margin: 0.5em 0;
-    padding: 0em;
 }
 
 .social li {
@@ -97,10 +96,11 @@ footer img {
 }
 
 footer p {
+    font-size: small;
     color: red;
     position: absolute;
-        top: 0.1em;
-        left: 20em;
+        top: 40%;
+        left: 36%;
 }
 
 /*Aplicando Pseudo-classes*/
