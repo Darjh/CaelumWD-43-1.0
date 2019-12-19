@@ -232,3 +232,15 @@ footer img {
     transform: scale(1.2) rotate(5deg);
 }
 
+#aviso1 {
+    background-color: #f00;
+    width: 40%;
+    text-align: center;
+    padding: 1%;
+    color: gold;
+    font-size: 19px;
+}
+
+#aviso1 h1 {
+    font-size: 28px;
+}
