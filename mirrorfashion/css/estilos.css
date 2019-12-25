@@ -111,12 +111,14 @@ header {
     background: linear-gradient(#dcdcf5, #f4bebe);
 }
 
+.painel ol {
+    text-align: center;
+}
+
 .painel li {
     display: inline-block;
     vertical-align: top;
-    width: 9em;
-
-    margin: 0.2em;
+    width: 32%;
     padding-bottom: 1%;
     transition: 0.7s ease-out;
 }
