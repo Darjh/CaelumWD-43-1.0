@@ -1,22 +1,28 @@
-body {
+#sai {
     color: #333;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    line-height: normal;
+}
+
+.container {  
     margin-left: auto;
     margin-right: auto;
     width: 940px;
 }
 
-h1 {
+
+
+body h1 {
     background-image: url(../img/sobre-background.jpg);
     padding: 10px;
 }
 
-h2 {
+body h2 {
     border-bottom: 2px solid #333;
     margin-top: 30px;
 }
 
-p {
+body p {
     padding: 0 45px;
     text-indent: 15px;
 }
@@ -49,6 +55,9 @@ figcaption {
 footer {
     background-image: url(../img/fundo-rodape.png);
     clear: both;
+}
+
+#fo {
     padding-top: 0.5em;
 }
 
@@ -85,7 +94,7 @@ footer img {
 
 .social {
     position: absolute;
-    top: 1%;
+    top: 23%;
     right: 1%;
     list-style-type: none;
 }
@@ -100,7 +109,7 @@ footer p {
     color: red;
     position: absolute;
         top: 40%;
-        left: 36%;
+        left: 40%;
 }
 
 /*Aplicando Pseudo-classes*/
@@ -117,3 +126,15 @@ h1 + p {
     font-variant: small-caps;
 }
 
+.neg {
+   font-weight: bold;
+}
+
+.it {
+    font-style: italic;
+}
+
+.lis {
+    list-style: square;
+    padding-inline-start: 40px;
+}

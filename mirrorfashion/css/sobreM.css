@@ -1,4 +1,6 @@
-@media (max-width: 939px) {
+@media only screen
+and (max-device-width : 939px) {
+
 	.container {
 		width: 96%;
 	}
@@ -15,13 +17,6 @@
 
 	#centro-distribuicao figcaption {
 		font-size: 0.5em;
-	}
-	
-	footer p {
-		font-size: 35%;
-		position: absolute;
-			top: 56%;
-			left: 31%;
 	}
 
 	footer img {
@@ -57,118 +52,80 @@
 		font-size: 150%; 
 	}
 
-	.social {
-		position: absolute;
-			top: -29%;
-			right: -3%;
-	}
 }
 
-@media (max-width: 736px) {
-
-	.social {
-		position: absolute;
-    		top: -15%;
-    		right: -3%;
-	}
+@media (max-width : 733px) {
 
 	footer p {
-		font-size: 90%;
 		position: absolute;
-		top: 20%;
+    		top: 40%;
+    		left: 30%;
 	}
-}
-
-@media (max-width: 700px) {
 
 	.social {
-		position: absolute;
-    		top: -20%;
-			right: -3%;
-	}
-
-	footer p {
-		font-size: 90%;
-    	position: absolute;
-    		top: 15%;
-    		left: 31%;
+		top: 12%;
 	}
 }
 
-@media (width: 640px) {
+@media (max-width : 600px) {
 
 	footer p {
-		font-size: 85%;
 		position: absolute;
-			top: 10%;
-			left: 31%;
+    		left: 25%;
 	}
-	
-}
-
-@media (width: 440px) {
 
 	.social {
-		position: absolute;
-    		top: -50%;
-    		right: -3%;
-	}
-
-	footer p {
-		font-size: 85%;
-    	position: absolute;
-    		top: -5%;
-			left: 20%;
+		top: 6%;
 	}
 }
 
-@media (width: 414px) {
+@media (max-width : 520px) {
+
+	footer p {
+		font-size: 59%;
+	}
 
 	.social {
-		position: absolute;
-    		top: -55%;
-    		right: -3%;
-	}
-
-	footer p {
-		font-size: 60%;
-    	position: absolute;
-    	top: 15%;
-    	left: 25%;
+		top: -1%;
 	}
 }
 
-@media (max-width: 360px) {
+@media (max-width : 450px) {
 
 	.social a {
-    	height: 19px;
-		width: 19px;
-	}
-
-	.social {
-		position: absolute;
-    		top: -50%;
+		height: 27px;
+		width: 27px;
 	}
 
 	footer p {
-		font-size: 65%;
-		position: absolute;
-			top:-25%;
-			left:25%;
+		left: 16%;
+		font-size: 75%;
 	}
 }
 
-@media (max-width: 320px) {
+@media (max-width : 419px) {
 
-	.social a {
-    	height: 18px;
-		width: 18px;
+	footer p {
+		left: 16%;
+		font-size: 59%;
+	}
+}
+
+@media (max-width : 373px) {
+
+	footer p {
+		left: 17%;
+		font-size: 49%;
+	}
+}
+
+@media (max-width : 330px) {
+
+	.social {
+		top: -10%;
 	}
 
 	footer p {
-		position: absolute;
-    		top: -10%;
-    		left: 20%;
+		left: 9%;
 	}
-
 }
