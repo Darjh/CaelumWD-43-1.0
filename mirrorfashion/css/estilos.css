@@ -176,6 +176,14 @@ footer img {
     margin-top: 0.3em;
 }
 
+.dir {
+    font-size: small;
+    color: red;
+    position: absolute;
+        top: 40%;
+        left: 40%;
+}
+
 .social {
     position: absolute;
     top: 12px;

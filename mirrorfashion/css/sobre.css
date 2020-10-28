@@ -54,7 +54,7 @@ figcaption {
 
 footer {
     background-image: url(../img/fundo-rodape.png);
-    clear: both;
+    clear: both;    
 }
 
 #fo {
@@ -86,6 +86,8 @@ footer {
 
 footer .container {
     position: relative;
+    margin-top: 1%;
+    padding: 1% 0 1%;
 }
 
 footer img {
@@ -94,7 +96,7 @@ footer img {
 
 .social {
     position: absolute;
-    top: 23%;
+    top: 30%;
     right: 1%;
     list-style-type: none;
 }
@@ -102,14 +104,6 @@ footer img {
 .social li {
     float: left;
     margin-left: 0.5em;
-}
-
-footer p {
-    font-size: small;
-    color: red;
-    position: absolute;
-        top: 40%;
-        left: 40%;
 }
 
 /*Aplicando Pseudo-classes*/
